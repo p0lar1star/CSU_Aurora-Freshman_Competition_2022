@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aurora-SimpleNative</string>
+    <string name="icon_of_aurora_lab">Icon of Aurora Lab</string>
+    <string name="inputyourflaghere">InputYourFlagHere</string>
+    <string name="check">Check!</string>
+    <string name="result_1">Success</string>
+    <string name="result_0">FAIL!</string>
+</resources>
