@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    easyUpload:
+        build: ./
+        image: flag_shop
+        ports:
+        - "12345:80"
+        container_name: flag_shop
+        deploy:
+            resources:
+                limits:
+                    cpus: '0.50'
+                    memory: 500M

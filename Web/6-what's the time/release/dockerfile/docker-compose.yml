@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    easyUpload:
+        build: ./
+        image: whats_the_time
+        ports:
+        - "12345:80"
+        container_name: whats_the_time
+        deploy:
+            resources:
+                limits:
+                    cpus: '0.50'
+                    memory: 500M
